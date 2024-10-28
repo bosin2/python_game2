@@ -3,6 +3,7 @@ import sys
 from view.start_intro import start_intro  # 인트로 화면 불러오기
 import os
 
+
 def main_menu(screen):
     # 배경 이미지 불러오기
     background_image = pygame.image.load(os.path.join('assets', 'images', 'backgrounds', 'mainscreen.png'))
